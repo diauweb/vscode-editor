@@ -1,5 +1,5 @@
 import fse from "fs-extra";
-const { rm, existsSync, copy, readFile, writeFile } = fse;
+const { rm, existsSync, copy, readFile, writeFile, access } = fse;
 
 import { execSync } from 'child_process';
 
